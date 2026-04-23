@@ -1,7 +1,5 @@
 # AMG-PC: Adaptive Modality-Gated Point Cloud Completion
 
-**CSC 449 Machine Vision | University of Rochester | 2026**  
-Tejaswini Balamurugan Kanimozhi & Luke Liu
 
 ---
 
