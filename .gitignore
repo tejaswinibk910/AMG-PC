@@ -1,0 +1,29 @@
+# Checkpoints and logs
+log/
+logs/
+*.pt
+*.pth
+
+# Data
+dataset/
+*.dat
+*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# CUDA extensions build artifacts
+cuda/ChamferDistance/build/
+cuda/pointnet2_ops_lib/build/
+*.so
+*.egg
+
+# Misc
+.DS_Store
+*.log
+nohup.out
