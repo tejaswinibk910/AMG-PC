@@ -1,11 +1,13 @@
 # AMG-PC: Adaptive Modality-Gated Point Cloud Completion
 
+https://github.com/user-attachments/assets/3965f1b0-a8a2-4daf-bfc9-43e6df59a0c5
 
 ---
 
 ## Overview
 
 AMG-PC extends [IAET (IJCAI 2025)](https://github.com/doldolOuO/IAET) with per-stage adaptive modality gating for multimodal point cloud completion. Given a partial point cloud, an RGB image, and a BLIP-2 generated text description, AMG-PC learns to weight each modality differently at each decoder stage.
+
 
 **Key contribution:** A lightweight ModalityGate (~200 params) at each of 3 decoder stages outputs softmax weights [α_pc, α_img, α_txt] trained purely from Chamfer Distance loss — no auxiliary supervision. The model discovers on its own to use image for global structure and text for fine detail.
 
